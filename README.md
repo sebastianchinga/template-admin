@@ -1,7 +1,7 @@
 # Template Administrador
 
-![Licencia](https://img.shields.io/github/license/tu_usuario/tu_proyecto)
-![Estado del Proyecto](https://img.shields.io/badge/status-en%20desarrollo-brightgreen)
+![Licencia](./LICENSE)
+Este proyecto está actualmente en desarrollo. Nuevas características y mejoras se están implementando activamente.![Estado del Proyecto](https://img.shields.io/badge/Estado-En%20desarrollo-yellow)
 
 ## Descripción
 
