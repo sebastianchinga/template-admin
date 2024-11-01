@@ -1,6 +1,9 @@
 # Template Administrador
 
-![Licencia](./LICENSE)
+Este proyecto está licenciado bajo la Licencia ISC. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
+
+![Licencia ISC](https://img.shields.io/badge/licencia-ISC-blue.svg)
+
 Este proyecto está actualmente en desarrollo. Nuevas características y mejoras se están implementando activamente.![Estado del Proyecto](https://img.shields.io/badge/Estado-En%20desarrollo-yellow)
 
 ## Descripción
