@@ -32,5 +32,10 @@
    ```bash
    git clone https://github.com/sebastianchinga/template-admin.git
 
-2. Instala las dependencias con el comando "npm install" y se creará una carpeta build
-3. Abrir el index.html en tu localhost
+2. Instala las dependencias con el comando 
+    ```bash
+    npm install
+
+3. Se creará una carpeta build/
+
+4. Abrir el archivo index.html en tu localhost
