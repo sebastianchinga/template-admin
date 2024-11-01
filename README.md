@@ -43,3 +43,7 @@
 5. En caso deseas modificar el proyecto a tu gusto, ya sea colores, fuentes o imágenes (iconos), te recomiendo usar la carpeta src/ y para reflejar cambios, elimina la carpeta build/ y ejecuta el comando
     ```
     npm run dev
+
+## Vista Previa
+
+![Vista del Proyecto](./assets/admin.png)
