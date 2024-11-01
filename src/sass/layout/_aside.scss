@@ -1,0 +1,62 @@
+@use 'base/variables' as v;
+
+.aside {
+    flex: 1;
+    height: 100vh;
+    background-color: v.$primary-color;
+    position: relative;
+    img {
+        filter: invert(99%) sepia(1%) saturate(4%) hue-rotate(356deg) brightness(103%) contrast(101%);
+    }
+    
+
+    &-header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        img {
+            width: 2.4rem;
+        }
+    }
+
+    &-body {
+        padding: 1rem;
+        img {
+            width: 2.4rem;
+        }
+    }
+
+    &-content {
+        width: 22.7rem;
+        position: fixed;
+    }
+}
+
+.dashboard {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: .5rem 0 1.5rem 0;
+}
+
+.list {
+    margin-bottom: 2.5rem;
+    color: v.$background-color;
+    li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+        gap: .7rem;
+        a {
+            color: v.$background-color;
+        }
+    }
+    &-title {
+        display: inline-block;
+        margin-bottom: 1.3rem;
+    }       
+}

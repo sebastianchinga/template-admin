@@ -1,0 +1,27 @@
+@use 'base/variables' as v;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    // align-content: center;
+    background-color: red;
+    padding: 1rem;
+    background-color: v.$primary-color;
+    a {
+        color: v.$background-color;
+    }
+
+    img {
+        filter: invert(99%) sepia(1%) saturate(4%) hue-rotate(356deg) brightness(103%) contrast(101%);
+    }
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    img {
+        width: 2.4rem;
+    }
+}

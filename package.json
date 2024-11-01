@@ -1,0 +1,21 @@
+{
+  "name": "admin-dashboard",
+  "version": "1.0.0",
+  "description": "Panel administrativo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Sebastian Chinga",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.80.5"
+  }
+}

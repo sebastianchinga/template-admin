@@ -1,0 +1,9 @@
+@use 'base/variables' as v;
+
+.main-container {
+    display: flex;
+}
+
+.main {
+    flex: 5;
+}
