@@ -2,9 +2,9 @@
 
 .aside {
     flex: 1;
-    height: 100vh;
+    // height: auto;
     background-color: v.$primary-color;
-    position: relative;
+    // position: relative;
     img {
         filter: invert(99%) sepia(1%) saturate(4%) hue-rotate(356deg) brightness(103%) contrast(101%);
     }
@@ -15,6 +15,8 @@
         align-items: center;
         gap: 1rem;
         padding: 1rem;
+        // padding: .5rem 1rem;
+        color: v.$background-color;
         img {
             width: 2.4rem;
         }
@@ -22,6 +24,7 @@
 
     &-body {
         padding: 1rem;
+        // padding: .5rem 1rem;
         img {
             width: 2.4rem;
         }
@@ -29,7 +32,7 @@
 
     &-content {
         width: 22.7rem;
-        position: fixed;
+        // position: fixed;
     }
 }
 
@@ -38,6 +41,7 @@
     gap: 1rem;
     align-items: center;
     margin: .5rem 0 1.5rem 0;
+    color: v.$background-color;
 }
 
 .list {
@@ -46,7 +50,16 @@
     li {
         display: flex;
         align-items: center;
-        margin-bottom: 1.5rem;
+        padding: .8rem 1rem;
+        transition: background-color ease-in-out .5s;
+        
+        &:hover {
+            background-color: v.$text-color;
+            outline: 1px solid v.$text-color;
+            border-radius: .5rem;
+            cursor: pointer;
+            
+        }
         &:last-of-type {
             margin-bottom: 0;
         }
@@ -57,6 +70,6 @@
     }
     &-title {
         display: inline-block;
-        margin-bottom: 1.3rem;
+        padding: .8rem 1rem;
     }       
 }

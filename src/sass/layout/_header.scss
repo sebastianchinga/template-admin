@@ -3,9 +3,10 @@
 .header {
     display: flex;
     justify-content: space-between;
-    // align-content: center;
     background-color: red;
     padding: 1rem;
+    position: sticky;
+    top: 0;
     background-color: v.$primary-color;
     a {
         color: v.$background-color;

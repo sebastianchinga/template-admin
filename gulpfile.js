@@ -12,6 +12,12 @@ export function css(done) {
     done();
 }
 
+export function js(done) {
+    src('src/js/index.js')
+        .pipe(dest('build/js'))
+    done();
+}
+
 export function svg(done) {
     src('src/images/**/*.svg')
         .pipe(dest('build/images'))
@@ -21,7 +27,8 @@ export function svg(done) {
 export function dev(done) {
     watch('src/sass/**/*.scss', css)
     watch('src/images/**/*.svg', svg)
+    watch('src/js/**/*.js', js)
     done();
 }
 
-export default series(css, svg, dev);
+export default series(css, svg, js, dev);
