@@ -31,4 +31,5 @@ export function dev(done) {
     done();
 }
 
-export default series(css, svg, js, dev);
+// export default series(css, svg, js, dev);
+export default series(css, svg, js);
